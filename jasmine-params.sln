@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "jparams", "jparams.njsproj", "{C1C89C1F-DF25-4A01-BC8F-F1AF5B9A6DF6}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "jasmine-params", "jasmine-params.njsproj", "{C1C89C1F-DF25-4A01-BC8F-F1AF5B9A6DF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
