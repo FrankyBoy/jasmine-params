@@ -19,5 +19,8 @@
     "jasmine",
     "paramters"
   ],
-  "devDependencies": {}
+  "devDependencies": {},
+  "dependencies": {
+    "get-parameter-names": "^0.2.0"
+  }
 }

@@ -9,13 +9,10 @@ describe('spec which loops', function() {
     .where(   [3,             3,              6,     0],
               [10,            4,              14,    6],
               [7,             1,              8,     6]
-    );
-
-    jparams.loop('Hoping that #firstNumber plus #secondNumber is #sum, not #difference', function(done, firstNumber, secondNumber, sum, difference) {
+    ).loop('Hoping that #firstNumber plus #secondNumber is #sum, not #difference', function(firstNumber, secondNumber, sum, difference) {
 
       expect(firstNumber+secondNumber).toEqual(sum);
       expect(firstNumber-secondNumber).toEqual(difference);
-      done();
     });
 
   });
@@ -29,13 +26,10 @@ describe('spec which loops', function() {
               3,
               4,
               5
-    );
-
-    jparams.loop('This time, what should happen is #theNumber should be less than 6, greater than 0', function(done, theNumber) {
+    ).loop('This time, what should happen is #theNumber should be less than 6, greater than 0', function(theNumber) {
 
       expect(theNumber).toBeLessThan(6);
       expect(theNumber).toBeGreaterThan(0);
-      done();
     });
 
   });
@@ -46,16 +40,13 @@ describe('spec which loops', function() {
     .iterate('theNumber')
     .where(   500,
               1000
-    );
-
-    jparams.loop('Sleeep for #theNumber ms and still assert', function(done, theNumber) {
+    ).loop('Sleeep for #theNumber ms and still assert', function(done, theNumber) {
 
       setTimeout(function(){
         //Silly assertion as an example
         expect(theNumber).toEqual(theNumber);
         done();
       }, theNumber);
-     
     });
 
   });
