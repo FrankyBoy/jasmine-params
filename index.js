@@ -1,2 +1,2 @@
-var params = require('./lib/jparams.js').jparams;
+var params = require('./lib/jparams.js');
 module.exports = params;
