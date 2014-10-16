@@ -6,9 +6,9 @@ describe('spec which loops', function() {
 
     jparams
     .iterate('firstNumber', 'secondNumber', 'sum', 'difference')
-    .where(   3,             3,              6,     0,
-              10,            4,              14,    6,
-              7,             1,              8,     6
+    .where(   [3,             3,              6,     0],
+              [10,            4,              14,    6],
+              [7,             1,              8,     6]
     );
 
     jparams.loop('Hoping that #firstNumber plus #secondNumber is #sum, not #difference', function(done, firstNumber, secondNumber, sum, difference) {
