@@ -27,7 +27,7 @@ describe('spec which loops', function() {
                 expect(theNumber).toBeGreaterThan(0);
             });
     });
-    
+
     jparams
         .iterate('theNumber')
         .values(1, 2, 3, 4, 5)
@@ -35,19 +35,21 @@ describe('spec which loops', function() {
 
             it('adds five', function() {
                 var result = theNumber + 5;
+                console.log(result);
                 expect(result).toBeGreaterThan(5);
                 expect(result).toBeLessThan(11);
             });
-            
+
             it('times two', function() {
                 var result = theNumber * 2;
+                console.log(result);
                 expect(result).toBeGreaterThan(1);
                 expect(result).toBeLessThan(11);
             });
-    });
+
+        });
 
     describe('An async example', function() {
-
         jparams
             .iterate('theNumber')
             .values(500, 1000)
