@@ -15,16 +15,14 @@ describe('focus and ignored TCs', function () {
         });
     });
 
-    // commented out because it would prevent other TCs from running
-
-    //describe('iit should focus', function() {
-    //    iterator.iit('should run', function (theNumber) {
-    //        expect(false).toBeFalsy();
-    //    });
+    describe('iit should focus', function() {
+        iterator.iit('should run', function (theNumber) {
+            expect(false).toBeFalsy();
+        });
         
-    //    it('should not run', function () {
-    //        expect(false).toBeTruthy();
-    //    });
-    //});
+        it('should not run', function () {
+            expect(false).toBeTruthy();
+        });
+    });
 
 });
