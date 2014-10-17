@@ -20,6 +20,7 @@
     "paramters"
   ],
   "dependencies": {
-    "get-parameter-names": "^0.2.0"
+    "get-parameter-names": "^0.2.0",
+    "lodash": "todo"
   }
 }
