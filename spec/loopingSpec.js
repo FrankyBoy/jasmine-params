@@ -35,14 +35,12 @@ describe('spec which loops', function() {
 
             it('adds five', function() {
                 var result = theNumber + 5;
-                console.log(result);
                 expect(result).toBeGreaterThan(5);
                 expect(result).toBeLessThan(11);
             });
 
             it('times two', function() {
                 var result = theNumber * 2;
-                console.log(result);
                 expect(result).toBeGreaterThan(1);
                 expect(result).toBeLessThan(11);
             });
