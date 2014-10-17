@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{c1c89c1f-df25-4a01-bc8f-f1af5b9a6df6}</ProjectGuid>
     <ProjectHome />
-    <ProjectView>ProjectFiles</ProjectView>
+    <ProjectView>ShowAllFiles</ProjectView>
     <StartupFile>index.js</StartupFile>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -21,7 +21,8 @@
     <Content Include="README.md" />
     <Compile Include="index.js" />
     <Compile Include="lib\jparams.js" />
-    <Compile Include="spec\looping.spec.js" />
+    <Compile Include="spec\focusExcludeSpec.js" />
+    <Compile Include="spec\loopingSpec.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="lib" />
