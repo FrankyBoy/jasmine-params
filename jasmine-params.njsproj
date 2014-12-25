@@ -20,6 +20,7 @@
     <Content Include="package.json" />
     <Content Include="README.md" />
     <Compile Include="index.js" />
+    <Compile Include="lib\helpers.js" />
     <Compile Include="lib\jparams.js" />
     <Compile Include="spec\focusExcludeSpec.js" />
     <Compile Include="spec\loopingSpec.js" />
