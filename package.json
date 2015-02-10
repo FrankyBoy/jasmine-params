@@ -1,6 +1,6 @@
 {
   "name": "jasmine-params",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Parmeterized Jasmine tests",
   "main": "index.js",
   "scripts": {
@@ -18,8 +18,5 @@
   "keywords": [
     "jasmine",
     "paramters"
-  ],
-  "dependencies": {
-    "get-parameter-names": "^0.2.0"
-  }
+  ]
 }

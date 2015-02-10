@@ -27,7 +27,7 @@ describe('spec which loops', function() {
                 expect(theNumber).toBeGreaterThan(0);
             });
     });
-
+    
     jparams
         .iterate('theNumber')
         .values(1, 2, 3, 4, 5)
@@ -51,7 +51,7 @@ describe('spec which loops', function() {
         jparams
             .iterate('theNumber')
             .values(500, 1000)
-            .it('Sleeep for #theNumber ms and still assert', function (done, theNumber) {
+            .it('Sleep for #theNumber ms and still assert', function (theNumber, done) {
                 setTimeout(function() {
                     //Silly assertion as an example
                     expect(theNumber).toEqual(theNumber);
