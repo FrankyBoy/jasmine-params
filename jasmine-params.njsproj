@@ -23,6 +23,7 @@
     <Compile Include="index.js" />
     <Compile Include="lib\helpers.js" />
     <Compile Include="lib\jparams.js" />
+    <Compile Include="spec\asyncSpec.js" />
     <Compile Include="spec\failureSpec.js" />
     <Compile Include="spec\focusExcludeSpec.js" />
     <Compile Include="spec\loopingSpec.js" />

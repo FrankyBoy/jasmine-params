@@ -32,7 +32,9 @@ or for multiple values
 
 ### using with async tests
 
-If the first parameter of your function is called "done", the variable will work like normal "done" in jasmine. 
+If the passed function has one argument more than defined in the ```iterate```, the last argument will be
+used to pass the ```done``` value. See [the spec](https://github.com/FrankyBoy/jasmine-params/blob/master/spec/asyncSpec.js)
+for an example.
 
 ### supported methods
 
