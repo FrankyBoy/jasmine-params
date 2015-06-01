@@ -1,4 +1,11 @@
-﻿# 0.3.0
+﻿# 0.3.2
+* fix in addValues function (thx to @rajansen for report)
+
+# 0.3.1
+* update documentation for new async example
+* link actual spec in README
+
+# 0.3.0
 * stricter detection if function definition and parameters match
 * for async methods, "done" moved to the last parameter (because it makes more sense)
 
